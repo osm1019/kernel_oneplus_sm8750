@@ -62,10 +62,6 @@
 #define RICHTAP_DEALY_HIGH    1001
 #endif
 
-#ifdef OPLUS_FEATURE_CHG_BASIC
-#undef dev_dbg
-#define dev_dbg dev_err
-#endif
 #define CREATE_TRACE_POINTS
 #include <trace/events/qcom_haptics.h>
 
